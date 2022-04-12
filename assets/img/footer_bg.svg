@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="506.114" height="136.769" viewBox="0 0 506.114 136.769">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.109" y1="0.03" x2="1.056" y2="0.979" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcf3ff"/>
+      <stop offset="0.192" stop-color="#cbedff"/>
+      <stop offset="0.406" stop-color="#afe5ff"/>
+      <stop offset="0.59" stop-color="#ebf4ff"/>
+      <stop offset="0.812" stop-color="#e1ecff"/>
+      <stop offset="1" stop-color="#96c4db"/>
+    </linearGradient>
+  </defs>
+  <path id="パス_308" data-name="パス 308" d="M14.779,24.037V-112.731H52.29q17.1,0,27.121,8.679t10.021,22.6a34.124,34.124,0,0,1-6.068,20.22A32.769,32.769,0,0,1,66.632-49.02v.381Q79.963-47.018,87.961-38.2t8,22.938q0,17.549-12.136,28.422T53.209,24.037ZM30.225-98.234v44.159H46.038q12.687,0,19.95-6.342T73.251-78.3q0-19.934-25.283-19.934Zm0,58.561V9.54H51.186q13.607,0,21.1-6.676t7.493-18.312q0-24.225-31.81-24.225Zm160.89,63.711h-68.4V-112.731h15.445V9.54h52.956Zm127.7,0h-17.1L287.741-14.3h-55.9L218.7,24.037H201.5l50.565-136.769h16ZM282.684-28.705,262-86.98a57.563,57.563,0,0,1-2.023-9.156h-.368a52.671,52.671,0,0,1-2.115,9.156l-20.5,58.275Zm147.008-80.211L352.465,9.54h75.388v14.5H329.388V19.555L405.972-98.234H335.548v-14.5h94.144Zm91.2,132.954H451.021V-112.731h66.93v14.5H466.467V-52.74H514.09v14.4H466.467V9.54h54.427Z" transform="translate(-14.779 112.731)" opacity="0.1" fill="url(#linear-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+</svg>

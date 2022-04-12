@@ -14,8 +14,9 @@ body, h1, h2, h3, h4, h5, p, ul{
 }
 
 body{
-    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: "メイリオ", 'Meiryo', "Hiragino Sans", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     overflow-x: hidden;
+    color: #333333;
 }
 
 ul{
@@ -85,6 +86,12 @@ header h1{
 
 header h1 a{
     color: #101010;
+    transition: all .2s ease-in-out;
+}
+
+header h1 a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
 
 header nav{
@@ -129,7 +136,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    opacity: .5;
+    opacity: .3;
     transition: all .3s ease-in-out;
 }
 
@@ -139,6 +146,101 @@ header nav ul li a img{
 
 main{
     margin-top: 7.5rem;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wrap{
+    width: 50%;
+    background: #515151;
+    height: 54.7rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+footer .wrap::before{
+    position: absolute;
+    content: "";
+    width: 50.6rem;
+    height: 13.677rem;
+    top: 2.88rem;
+    left: 0;
+    background: url("../img/footer_bg.svg") no-repeat center center/contain;
+}
+
+footer .wrap h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: .5rem;
+}
+
+footer .wrap p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 4.5rem;
+}
+
+footer .wrap h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+footer .wrap > a{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 6.66rem;
+}
+
+footer .wrap > a img{
+    width: 3.5rem;
+    margin-right: 1.6rem;
+    vertical-align: middle;
+}
+
+footer .wrap ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.97rem;
+}
+
+footer .wrap ul li{
+    padding-right: 2.63rem;
+    margin-right: 2.63rem;
+    border-right: solid .1rem #FFFFFF;
+}
+
+footer .wrap ul li:last-child{
+    border-right: none;
+}
+
+footer .wrap ul li a{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: normal;
+}
+
+footer .wrap .copy{
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+footer .map{
+    width: 50%;
+    height: 54.7rem;
 }
 
 @media screen and (max-width: 767px){

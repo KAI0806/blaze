@@ -75,6 +75,7 @@
     text-align: center;
     position: relative;
     margin-bottom: 6.9rem;
+    letter-spacing: .7rem;
 }
 
 #news .left h2::before{
@@ -126,6 +127,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 16%);
 }
 
 #news .right h2{
@@ -140,4 +142,629 @@
 
 #news .right h2 small{
     font-size: 5rem;
+}
+
+#news .right p{
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: #19A8D4;
+    position: relative;
+    margin-bottom: 2.1rem;
+}
+
+#news .right p::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -1.95rem;
+    transform: translate(-100%, -10%);
+    width: 5.7rem;
+    height: 5.06rem;
+    background: url("../img/left_slsh.svg") no-repeat center center/contain;
+}
+
+#news .right p::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: -1.95rem;
+    transform: translate(100%, -10%);
+    width: 5.7rem;
+    height: 5.06rem;
+    background: url("../img/right_slsh.svg") no-repeat center center/contain;
+}
+
+#news .right a{
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: white;
+    background: #19A8D4;
+    border-radius: 3.5rem;
+    width: 45.2rem;
+    text-align: center;
+    padding: 2rem 0;
+    line-height: 1;
+    position: relative;
+    box-shadow: 0 .1rem .6rem #8DE4FF;
+}
+
+#news .right a::before{
+    position: absolute;
+    content: "";
+    width: 1.1rem;
+    height: 1.8rem;
+    right: 3.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../img/arrow_white.svg") no-repeat center center/contain;
+}
+
+#news .right a:hover{
+    box-shadow: inset .1rem .3rem .6rem rgba(0, 0, 0, 50%);
+}
+
+/* philosophy */
+#philosophy{
+    margin-bottom: 17rem;
+}
+
+#philosophy .title{
+    background: #F3FCFF;
+    padding: 9.08rem 0 8.3rem;
+}
+
+#philosophy .title h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6.45rem;
+    letter-spacing: .3rem;
+}
+
+#philosophy .title h2 img{
+    height: 8rem;
+    margin-bottom: 2.5rem;
+}
+
+#philosophy .title p{
+    width: 41.25%;
+    text-align: center;
+    margin: auto;
+}
+
+#philosophy .wrap{
+    margin: auto;
+    margin-top: 21.3rem;
+    width: 86.46%;
+    position: relative;
+}
+
+#philosophy .wrap::before{
+    position: absolute;
+    content: "";
+    width: 100vw;
+    height: 119.4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../img/philosophy_bg.svg") no-repeat center center/cover;
+    z-index: -1;
+}
+
+#philosophy .wrap .content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#philosophy .wrap .content img{
+    width: 83rem;
+}
+
+#philosophy .wrap .content div{
+    width: 59.1rem;
+}
+
+#philosophy .wrap .content div h3{
+    font-size: 5.8rem;
+    font-weight: bold;
+    margin-bottom: 5.58rem;
+    letter-spacing: .9rem;
+    position: relative;
+}
+
+#philosophy .wrap .content div h3::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 22.42rem;
+    height: 36.42rem;
+    transform: translate(-75%, -25%);
+    background: url("../img/tltle_obj.svg") no-repeat center center/contain;
+}
+
+
+#philosophy .wrap .content:last-child div{
+    width: 66.3rem;
+}   
+
+#philosophy .wrap .content:last-child div h3::before{
+    transform: translate(40%, -15%) rotateY(180deg);
+    right: 0;
+    left: unset;
+}
+
+#philosophy .wrap .content div p{
+    font-weight: bold;
+    color: #515151;
+    padding-left: 7rem;
+    position: relative;
+}
+
+#philosophy .wrap .content div p::before{
+    position: absolute;
+    content: "";
+    width: 4.128rem;
+    height: 27.1rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../img/scale.svg") no-repeat center center/contain;
+}
+
+#philosophy .wrap .content div h3 small{
+    font-size: 4.3rem;
+}
+
+#philosophy .wrap .content:last-child{
+    margin-top: 11rem;
+    flex-direction: row-reverse;
+}
+
+/* value */
+#value{
+    padding: 14.6rem 0 17.9rem;
+    margin-bottom: 10.2rem;
+    background: url("../img/value_bg.jpg") no-repeat center bottom/cover;
+}
+
+#value h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 6.4rem;
+    letter-spacing: .3rem;
+}
+
+#value h2 img{
+    height: 6rem;
+    margin-bottom: 2.33rem;
+}
+
+#value p{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    width: 41.25%;
+    margin: auto;
+    text-align: center;
+}
+
+/* case */
+#case{
+    margin-bottom: 22.38rem;
+}
+
+#case h2{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: .5rem;
+}
+
+#case h2 img{
+    height: 3.2rem;
+}
+
+/* recruit */
+#recruit{
+    width: 86.46%;
+    margin: auto;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#recruit .content{
+    width: 70rem;
+}
+
+#recruit .content h2{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .5rem;
+    margin-bottom: 11.7rem;
+}
+
+#recruit .content h2 img{
+    height: 10.2rem;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+#recruit .content p{
+    padding-left: 11.2rem;
+    font-weight: bold;
+    position: relative;
+}
+
+#recruit .content p::before{
+    position: absolute;
+    content: "";
+    width: 5.287rem;
+    height: 34.71rem;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    background: url("../img/scale.svg") no-repeat center center/contain;
+}
+
+#recruit picture{
+    position: relative;
+}
+
+#recruit picture::before{
+    position: absolute;
+    content: "";
+    top: -45.775rem;
+    left: 0;
+    transform: rotateZ(90deg) translate(200%, -40%);
+    width: 6.97rem;
+    height: 45.775rem;
+    background: url("../img/scale.svg") no-repeat center center/contain;
+}
+
+#recruit img{
+    width: 76.6rem;
+}
+
+/* about */
+#about{
+    background: #F3FCFF;
+    padding: 10.6rem 0 10rem;
+    margin-bottom: 10rem;
+}
+
+#about > h2{
+    font-size: 3.9rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .5rem;
+    position: relative;
+    margin-bottom: 7.6rem;
+}
+
+#about > h2::before{
+    position: absolute;
+    content: "";
+    width: 17.4rem;
+    height: .05rem;
+    top: 60%;
+    left: 50%;
+    transform: rotateZ(-5deg) translate(-180%, -50%);
+    background: #333333;
+    filter: drop-shadow(-1.85rem 1.08rem #19A8D4);
+}
+
+#about > h2::after{
+    position: absolute;
+    content: "  ";
+    width: 17.4rem;
+    height: .05rem;
+    top: 70%;
+    right: 50%;
+    transform: rotateZ(-5deg) translate(180%, -50%);
+    background: #333333;
+    filter: drop-shadow(-1.85rem 1.08rem #19A8D4);
+}
+
+#about > h2 small{
+    font-size: 1.9rem;
+    color: #19A8D4;
+}
+
+#about .wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .wrap img{
+    width: 72rem;
+    margin-right: 12.7rem;
+}
+
+#about .wrap .content{
+    width: 36rem;
+    position: relative;
+}
+
+#about .wrap .content::before{
+    position: absolute;
+    content: "";
+    width: 3rem;
+    height: 19.26rem;
+    right: -5.7rem;
+    top: 0;
+    transform: rotateY(180deg) translateX(-100%);
+    background: url("../img/scale.svg") no-repeat center center/contain;
+}
+
+#about .wrap .content::after{
+    position: absolute;
+    content: "";
+    width: 3rem;
+    height: 19.26rem;
+    right: -5.7rem;
+    bottom: 0;
+    transform: rotateY(180deg) translateX(-100%);
+    background: url("../img/scale.svg") no-repeat center center/contain;
+}
+
+#about .wrap .content div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.4rem;
+    padding-bottom: 1.4rem;
+    border-bottom: solid .1rem #19A8D4;
+}
+
+#about .wrap .content div p{
+    font-weight: bold;
+}
+
+#about .wrap .content div p:first-child{
+    color: #19A8D4;
+    width: 17.7rem;
+}
+
+/* history */
+#history{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+#history .wrap h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #19A8D4;
+    margin-bottom: 8rem;
+}
+
+#history .wrap ul{
+    padding-left: 6rem;
+    position: relative;
+}
+
+#history .wrap ul::before{
+    position: absolute;
+    content: "";
+    width: 3.6rem;
+    height: 33.5rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../img/scale_hist.svg") no-repeat center center/contain;
+}
+
+#history .wrap ul li{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 2.3rem;
+}
+
+#history .wrap ul li span{
+    color: #19A8D4;
+    display: inline-block;
+    margin-right: 2.8rem;
+}
+
+/* contact */
+#contact{
+    padding: 10rem 0;
+    background: #F9FEFF;
+}
+
+#contact h2{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    text-align: center;
+    margin-bottom: 13rem;
+}
+
+#contact h2 img{
+    height: 10rem;
+}
+
+/* form */
+form{
+    width: 60%;
+    margin: auto;
+    border: .3rem solid #19A8D4;
+    position: relative;
+    padding: 13.34rem 0 5.97rem;
+    background: white;
+}
+
+form .telto{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46.52%;
+    padding: 3.45rem;
+    transform: translate(-50%, -50%);
+    background: #19A8D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .telto p{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1.88rem;
+}
+
+form .telto a{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+form .telto a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+form .telto a img{
+    width: 2.327rem;
+    margin-right: .74rem;
+}
+
+form .wrap{
+    width: 74.6%;
+    margin: auto;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset > span{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-right: 7.54rem;
+}
+
+.red{
+    font-size: 1.8rem;
+    color: white;
+    background: #EF3E3E;
+    border-radius: .4rem;
+    width: 8rem;
+    text-align: center;
+    display: inline-block;
+    padding: .85rem 0;
+    line-height: 1;
+}
+
+fieldset .right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+fieldset .right label{
+    margin-bottom: 3.2rem;
+}
+
+fieldset .right input{
+    margin-right: 5rem;
+    color: #707070;
+    border: .2rem solid #707070;
+    height: 2.4rem;
+    width: 2.4rem;
+    vertical-align: middle;
+}
+
+label{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+form .wrap > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+form .wrap > div label{
+    width: 28rem;
+    margin-right: 6.38rem;
+    display: inline-block;
+}
+
+form .wrap > div input{
+    border-radius: .4rem;
+    border: solid .05rem #707070;
+    width: calc(100% - 32.38rem);
+    font-size: 2.2rem;
+    padding: 1.6rem 2.47rem;
+}
+
+form .wrap > .txt{
+    align-items: flex-start;
+}
+
+form .wrap > div textarea{
+    border-radius: .4rem;
+    border: solid .05rem #707070;
+    width: calc(100% - 32.38rem);
+    font-size: 2.2rem;
+    padding: 1.6rem 2.47rem;
+    height: 29.2rem;
+}
+
+::placeholder{
+    color: #D5D5D5;
+}
+
+form .wrap button{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 43.81rem;
+    padding: 1.9rem 0;
+    border: none;
+    border-radius: 3.1rem;
+    color: white;
+    background: #19A8D4;
+    box-shadow: 0 .1rem .6rem #19A8D4;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+}
+
+form .wrap button:hover{
+    box-shadow: inset .1rem .3rem .6rem rgba(0, 0, 0, 50%);
+}
+
+form .wrap button::before{
+    position: absolute;
+    content: "";
+    width: 1.224rem;
+    height: 1.98rem;
+    right: 4.27rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../img/arrow_white.svg") no-repeat center center/contain;
 }

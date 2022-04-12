@@ -537,9 +537,13 @@
 /* history */
 #history{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+}
+
+#history .wrap{
+    margin-right: 28.6rem;
 }
 
 #history .wrap h2{
@@ -575,6 +579,10 @@
     color: #19A8D4;
     display: inline-block;
     margin-right: 2.8rem;
+}
+
+#history img{
+    width: 72rem;
 }
 
 /* contact */
@@ -767,4 +775,314 @@ form .wrap button::before{
     top: 50%;
     transform: translateY(-50%);
     background: url("../img/arrow_white.svg") no-repeat center center/contain;
+}
+
+@media screen and (max-width: 767px){
+    #mv{
+        height: 52.7rem;
+        background: url("../img/mv_bg_sp.jpg") no-repeat center center/cover;
+        position: relative;
+    }
+    
+    #mv::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: url("../img/mv_obj_sp.svg") no-repeat center center/cover;
+        z-index: 0;
+    }
+
+    #mv h2{
+        font-size: 2.8rem;
+        top: 50%;
+        left: 6.3rem;
+        height: fit-content;
+        text-shadow: 0 .3rem .6rem rgb(255, 255, 255);
+        transform: translateY(-50%);
+        letter-spacing: 1rem;
+    }
+
+    #mv h2 span{
+        font-size: 3.6rem;
+    }
+
+    #mv h2 small{
+        font-size: 2.4rem;
+    }
+
+    #mv h2 span::before{
+        font-size: 1rem;
+        right: -1.7rem;
+    }
+
+    /* news */
+    #news{
+        flex-direction: column;
+        width: 85.33%;
+        margin-top: 3.3rem;
+        margin-bottom: 4rem;
+    }
+
+    #news .left{
+        width: 100%;
+    }
+
+    #news .left h2{
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        margin-bottom: 2.1rem;
+    }
+
+    #news .left h2::before{
+        width: 8.854rem;
+        filter: drop-shadow(-.95rem .55rem #19A8D4);
+    }
+
+    #news .left h2::after{
+        width: 8.854rem;
+        filter: drop-shadow(-.95rem .55rem #19A8D4);
+    }
+
+    #news .left h2 small{
+        font-size: 1rem;
+    }
+
+    #news .left ul li{
+        margin-bottom: 3.7rem;
+        font-size: 1.6rem;
+    }
+
+    #news .left ul li small{
+        font-size: 1rem;
+    }
+
+    #news .right{
+        width: 100%;
+        padding: 4.2rem 0 3.4rem;
+    }
+
+    #news .right h2{
+        font-size: 3.2rem;
+        width: 79.375%;
+        padding: 1rem 0;
+        margin-bottom: 2rem;
+    }
+
+    #news .right h2 small{
+        font-size: 2.4rem;
+    }
+
+    #news .right p{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #news .right p::before{
+        width: 2.7rem;
+        height: 2.4rem;
+    }
+
+    #news .right p::after{
+        width: 2.7rem;
+        height: 2.4rem;
+    }
+
+    #news .right a{
+        width: 21.4rem;
+        font-size: 1.4rem;
+        padding: .9rem 0;
+    }
+
+    #news .right a::before{
+        width: .529rem;
+        height: .856rem;
+        right: 1.8rem;
+    }
+
+    /* philosophy */
+    #philosophy{
+        margin-bottom: 6rem;
+    }
+
+    #philosophy .title{
+        padding: 4.5rem 0 3.3rem;
+    }
+
+    #philosophy .title h2{
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        margin-bottom: 2.3rem;
+    }
+
+    #philosophy .title h2 img{
+        height: 4.37rem;
+        margin-bottom: 1.23rem;
+    }
+
+    #philosophy .title p{
+        width: 85.33%;
+    }
+
+    #philosophy .wrap{
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    #philosophy .wrap .content{
+        flex-direction: column;
+    }
+
+    #philosophy .wrap .content:last-child{
+        flex-direction: column;
+        margin-top: 7.6rem;
+    }
+
+    #philosophy .wrap .content img{
+        width: 26.5rem;
+        margin-bottom: 3rem;
+    }
+
+    #philosophy .wrap .content div{
+        width: 28.8rem;
+        margin: auto;
+    }
+
+    #philosophy .wrap .content div h3{
+        font-size: 2.7rem;
+        letter-spacing: .3rem;
+        margin-bottom: 3.5rem;
+    }
+
+    #philosophy .wrap .content div h3::before{
+        left: unset;
+        right: 0;
+        top: 0;
+        width: 14.869rem;
+        height: 24.15rem;
+        transform: translate(30%, -30%);
+    }
+
+    #philosophy .wrap .content div h3 small{
+        font-size: 2rem;
+    }
+
+    #philosophy .wrap .content div p{
+        padding-left: 3rem;
+        line-height: 2;
+    }
+
+    #philosophy .wrap .content div p::before{
+        width: 2.3rem;
+        height: 15.1rem;
+    }
+
+    #philosophy .wrap .content:last-child picture{
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    #philosophy .wrap .content:last-child div{
+        width: 28.8rem;
+    }
+
+    #philosophy .wrap .content:last-child div h3{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    #philosophy .wrap .content:last-child div h3::before{
+        left: 0;
+        right: unset;
+        transform: translate(-110%, -35%) rotateY(180deg);
+    }
+
+    /* value */
+    #value{
+        padding: 5.34rem 0 4.8rem;
+        margin-bottom: 3.97rem;
+    }
+
+    #value h2{
+        font-size: 1.4rem;
+        margin-bottom: 2.3rem;
+    }
+
+    #value h2 img{
+        height: 2.726rem;
+        margin-bottom: 1.33rem;
+    }
+
+    #value p{
+        width: 74.13%;
+        font-size: 1.4rem;
+    }
+
+    /* case */
+    #case{
+        margin-bottom: 14rem;
+    }
+
+    #case h2{
+        font-size: 2.7rem;
+    }
+
+    #case h2 img{
+        height: 1.674rem;
+        margin-bottom: 1.06rem;
+    }
+
+    /* recruit */
+    #recruit{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    #recruit .content{
+        width: 100%;
+        position: relative;
+    }
+
+    #recruit .content h2{
+        margin-bottom: 0;
+        position: absolute;
+        top: -28.5rem;
+        left: 5rem;
+        z-index: 10;
+    }
+
+    #recruit .content h2 img{
+        height: 6.165rem;
+        margin-left: 3.4rem;
+        margin-bottom: 0;
+    }
+
+    #recruit picture img{
+        width: 69.33%;
+        transform: translateX(50%);
+        margin-bottom: 4.2rem;
+    }
+
+    #recruit picture::before{
+        width: 2.3rem;
+        height: 15.1rem;
+        top: -20rem;
+        left: 50%;
+        transform: rotateZ(90deg) translate(200%, 10%);
+    }
+
+    #recruit .content p{
+        padding-left: 3.5rem;
+        line-height: 2;
+        width: calc(78.13% - 3.5rem);
+        margin: auto;
+    }
+
+    #recruit .content p::before{
+        width: 2.3rem;
+        height: 15.1rem;
+    }
 }

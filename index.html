@@ -13,7 +13,7 @@
 </head>
 <body ontouchstart="">
     <header>
-        <h1 class="mintyo"><a href="#">株式会社Blaze</a></h1>
+        <h1 class="mintyo"><a id="logo" href="#">株式会社Blaze</a></h1>
 
         <nav class="pc_flex">
             <ul>
@@ -29,8 +29,27 @@
         </nav>
 
         <div id="hamburger" class="sp_only">
+            <span id="ladder"><img src="assets/img/hamburger.svg" alt=""></span>
         </div>
+
+        <nav id="nav" class="sp_only">
+            <div class="nav_wrap">
+                <ul>
+                    <li><a href="#">ホーム<img src="assets/img/nav_home_sp.svg" alt="ホーム"></a></li>
+                    <li><a href="#philosophy">経営理念<img src="assets/img/nav_philo_sp.svg" alt="経営理念"></a></li>
+                    <li><a href="#value">事業内容<img src="assets/img/nav_value_sp.svg" alt="事業内容"></a></li>
+                    <li><a href="#case">施工事例<img src="assets/img/nav_case_sp.svg" alt="施工事例"></a></li>
+                    <li><a href="#recruit">採用情報<img src="assets/img/nav_rec_sp.svg" alt="採用情報"></a></li>
+                    <li><a href="#about">会社概要<img src="assets/img/nav_about_sp.svg" alt="会社概要"></a></li>
+                    <li><a href="#history">沿革<img src="assets/img/nav_hist_sp.svg" alt="沿革"></a></li>
+                </ul>
+            </div>
     </header>
+
+    <div class="sp_flex cta">
+        <a href="">お問合せ｜CONTACT</a>
+        <a href="">採用情報｜ENTRY</a>
+    </div>
 
     <main>
         <section id="mv">
@@ -140,8 +159,12 @@
         </section>
 
         <section id="recruit">
+            <h2 class="sp_only">
+                <img src="assets/img/recruit.svg" alt="採用情報">
+                <br/>採用情報
+            </h2>
             <div class="content">
-                <h2>
+                <h2 class="pc_only">
                     <img src="assets/img/recruit.svg" alt="採用情報">
                     <br/>採用情報
                 </h2>
@@ -247,7 +270,6 @@
                             採用・選考について
                             </label>
                             <label class="form-check-label form-check-inline">
-                                <br class="sp_only"/>
                             <input class="form-check-input" type="radio" name="お問合せ内容" value="その他お問い合わせ" data-formrun-required>
                             その他お問い合わせ
                             </label>
@@ -272,8 +294,8 @@
                     </div>
                   
                     <div class="txt">
-                      <label>お問い合わせ</label>
-                      <textarea name="お問い合わせ" placeholder="お問合せ内容をご記載ください。"></textarea>
+                      <label>お問合わせ内容</label>
+                      <textarea name="お問合わせ内容" placeholder="お問合せ内容をご記載ください。"></textarea>
                     </div>
                   
                     <!-- ボット投稿をブロックするためのタグ -->
@@ -307,5 +329,9 @@
 
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.8356832307463!2d139.8794432152574!3d35.63177713020589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60187d03114737b3%3A0xe4d93636d509d3cb!2z5p2x5Lqs44OH44Kj44K644OL44O844Op44Oz44OJ!5e0!3m2!1sja!2sjp!4v1649735201134!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
+
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/menu.js"></script>
 </body>
 </html>

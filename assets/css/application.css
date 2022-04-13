@@ -278,12 +278,22 @@ footer .map{
 
     /* header */
     header{
-        padding: 1.5rem;
+        padding: 1.5rem 0;
     }
 
     header h1{
         font-size: 1.4rem;
         margin-left: 2.7rem;
+        z-index: 10;
+    }
+
+    header h1 a{
+        transition: all .5s ease-in-out;
+    }
+
+    header h1 .white{
+        color: white;
+        transition: all .8s ease-in-out;
     }
 
     #hamburger{
@@ -291,7 +301,26 @@ footer .map{
         height: 3.01rem;
         transition: all 1s ease-out;
         position: relative;
-        z-index: 1;
+        z-index: 10;
+        margin-right: 2.18rem;
+    }
+
+    #hamburger span{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: url("../img/hamburger.svg") no-repeat center center/contain;
+        transition: all .5s ease-in-out;
+    }
+
+    #hamburger span img{
+        opacity: 0;
+    }
+
+    #hamburger .ladder_white{
+        transform: rotateZ(-90deg);
+        transition: all .8s ease-in-out;
+        background: url("../img/hamburger_white.svg") no-repeat center center/contain;
     }
 
     #nav{
@@ -307,10 +336,160 @@ footer .map{
         opacity: 0;
         overflow-y: scroll;
         box-shadow: inset 0 .3rem .6rem rgba(0, 0, 0, 16%);
+        background: #19A8D4;
+        overflow: hidden;
+    }
+
+    .in{
+        transform: translateX(-100%);
+        opacity: 1 !important;
+    }
+
+    header nav .nav_wrap{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 56%;
+        margin: auto;
+    }
+
+    header nav ul li{
+        margin-bottom: 4.83rem;
+    }
+
+    header nav ul li a{
+        margin-right: 0;
+        color: white;
+        font-size: 2.3rem;
+    }
+
+    header nav ul li a img{
+        height: 1.916rem;
+        margin-left: 1.97rem;
+    }
+
+    .cta{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10000;
+        box-shadow: 0 -.3rem .6rem rgba(0, 0, 0, 16%);
+    }
+
+    .cta a{
+        font-size: 1.4rem;
+        font-weight: bolder;
+        padding: 2.25rem 0;
+        width: 50%;
+        text-align: center;
+        position: relative;
+    }
+
+    .cta a:hover{
+        box-shadow: inset .3rem .6rem .6rem rgba(0, 0, 0, 50%);
+    }
+
+    .cta a:first-child{
+        background: white;
+        color: #19A8D4;
+    }
+
+    .cta a:last-child{
+        background: #19A8D4;
+        color: white;
+    }
+
+    .cta a::before{
+        position: absolute;
+        content: "";
+        top: 50%;
+        right: .5rem;
+        width: 1.019rem;
+        height: 1.019rem;
+        transform: translateY(-50%);
+        background: url("../img/cta_arrow_blue.svg") no-repeat center center/contain;
+    }
+
+    .cta a:last-child::before{
+        right: 1.2rem;
+        background: url("../img/cta_arrow_white.svg") no-repeat center center/contain;
     }
 
     /* main */
     main{
         margin-top: 6rem;
+    }
+
+    /* footer */
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    footer .map{
+        width: 100%;
+        height: 28rem;
+    }
+
+    footer .wrap{
+        width: 100%;
+        height: 41rem;
+    }
+
+    footer .wrap::before{
+        width: 100%;
+        top: 2.1rem;
+    }
+
+    footer .wrap h1{
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    footer .wrap p{
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+
+    footer .wrap h2{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    footer .wrap > a{
+        margin-bottom: 3.9rem;
+        font-size: 1.9rem;
+    }
+
+    footer .wrap > a img{
+        width: 2.6rem;
+        margin-right: 1.2rem;
+    }
+
+    footer .wrap ul{
+        margin-bottom: 3.6rem;
+    }
+
+    footer .wrap ul li{
+        padding-right: .95rem;
+        margin-right: .95rem;
+    }
+
+    footer .wrap ul li a{
+        font-size: 1.6rem;
+    }
+
+    footer .wrap .copy{
+        font-size: 1.2rem;
     }
 }

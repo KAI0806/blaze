@@ -618,7 +618,7 @@ form .telto{
     top: 0;
     left: 50%;
     width: 46.52%;
-    padding: 3.45rem;
+    padding: 3.45rem 0;
     transform: translate(-50%, -50%);
     background: #19A8D4;
     display: flex;
@@ -1004,6 +1004,7 @@ form .wrap button::before{
     #value{
         padding: 5.34rem 0 4.8rem;
         margin-bottom: 3.97rem;
+        background: url("../img/value_sp_bg.jpg") no-repeat center bottom/cover;
     }
 
     #value h2{
@@ -1039,25 +1040,31 @@ form .wrap button::before{
     #recruit{
         width: 100%;
         flex-direction: column-reverse;
+        margin-bottom: 3.2rem;
+        position: relative;
+    }
+
+    #recruit h2{
+        margin-bottom: 0;
+        position: absolute;
+        top: -4.5rem;
+        left: 6rem;
+        z-index: 10;
+    }
+
+    #recruit h2 img{
+        height: 6.165rem;
+        margin-left: 2rem;
+        margin-bottom: .5rem;
+        width: fit-content;
     }
 
     #recruit .content{
         width: 100%;
-        position: relative;
     }
 
-    #recruit .content h2{
-        margin-bottom: 0;
-        position: absolute;
-        top: -28.5rem;
-        left: 5rem;
-        z-index: 10;
-    }
-
-    #recruit .content h2 img{
-        height: 6.165rem;
-        margin-left: 3.4rem;
-        margin-bottom: 0;
+    #recruit picture{
+        overflow: hidden;
     }
 
     #recruit picture img{
@@ -1084,5 +1091,222 @@ form .wrap button::before{
     #recruit .content p::before{
         width: 2.3rem;
         height: 15.1rem;
+    }
+
+    /* about */
+    #about{
+        padding: 3rem 0 2.1rem;
+        margin-bottom: 0;
+    }
+
+    #about > h2{
+        font-size: 2rem;
+        margin-bottom: 3.9rem;
+    }
+
+    #about > h2 small{
+        font-size: 1rem;
+    }
+
+    #about > h2::before{
+        width: 8.854rem;
+        filter: drop-shadow(-0.95rem 0.55rem #19A8D4);
+    }
+
+    #about > h2::after{
+        width: 8.854rem;
+        filter: drop-shadow(-0.95rem 0.55rem #19A8D4);
+    }
+
+    #about .wrap{
+        flex-direction: column;
+    }
+
+    #about .wrap picture{
+        width: 69.33%;
+        margin-bottom: 3.3rem;
+    }
+
+    #about .wrap img{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #about .wrap .content{
+        width: 75.2%;
+    }
+
+    #about .wrap .content div{
+        margin-bottom: 1.1rem;
+        padding-bottom: 1.1rem;
+    }
+
+    #about .wrap .content div p:first-child{
+        width: 9.2rem;
+    }
+
+    #about .wrap .content::before{
+        width: 2.3rem;
+        height: 15.1rem;
+        right: -1rem;
+        top: 0;
+        transform: rotateY(180deg) translateX(-100%);
+    }
+
+    #about .wrap .content::after{
+        width: 2.3rem;
+        height: 15.1rem;
+        right: -1rem;
+        bottom: 1.5rem;
+        transform: rotateY(180deg) translateX(-100%);
+    }
+
+    /* history */
+    #history{
+        flex-direction: column-reverse;
+        margin-bottom: 4.2rem;
+    }
+
+    #history img{
+        width: 100%;
+        margin-bottom: 2.3rem;
+    }
+
+    #history .wrap{
+        margin-right: 0;
+        width: 85.33%;
+    }
+
+    #history .wrap h2{
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+    }
+
+    #history .wrap ul{
+        padding-left: 3.6rem;
+    }
+
+    #history .wrap ul::before{
+        position: absolute;
+        content: "";
+        width: 2.3rem;
+        height: 19.78rem;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #history .wrap ul li{
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    /* contact */
+    #contact{
+        padding: 2.7rem 0 4rem;
+        overflow: hidden;
+    }
+
+    #contact h2{
+        font-size: 2.4rem;
+        margin-bottom: 6.4rem;
+    }
+
+    #contact h2 img{
+        height: 5rem;
+    }
+
+    form{
+        width: 85.33%;
+        padding: 7.2rem 0 3.8rem;
+    }
+
+    form .telto{
+        width: 71.88%;
+        padding: 1.4rem 0;
+    }
+
+    form .telto p{
+        font-size: 1.6rem;
+    }
+
+    form .telto a{
+        font-size: 1.6rem;
+    }
+
+    form .telto a img{
+        width: 2.1rem;
+        margin-right: 1rem;
+    }
+
+    form .wrap{
+        width: 71.88%;
+    }
+
+    .red{
+        font-size: 1.2rem;
+        width: 5.1rem;
+        padding: .4rem 0;
+        vertical-align: middle;
+    }
+
+    fieldset{
+        flex-direction: column;
+    }
+
+    label{
+        font-size: 1.6rem;
+    }
+
+    fieldset > span{
+        margin-right: 0;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    fieldset .right label{
+        margin-bottom: 1.9rem;
+    }
+
+    fieldset .right input{
+        margin-right: 2.1rem;
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+
+    form .wrap > div{
+        flex-direction: column;
+    }
+
+    form .wrap > div label{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    form .wrap > div input{
+        padding: 1.1rem;
+        width: calc(100% - 2.2rem);
+        font-size: 1.4rem;
+    }
+
+    form .wrap > div textarea{
+        padding: 1.1rem;
+        width: calc(100% - 2.2rem);
+        font-size: 1.4rem;
+        height: 11.8rem;
+    }
+
+    form .wrap button{
+        width: 93.04%;
+        padding: 1.1rem 0;
+        border-radius: 1.9rem;
+        font-size: 1.4rem;
+    }
+
+    form .wrap button::before{
+        width: .529rem;
+        height: .856rem;
+        right: 1.8rem;
     }
 }

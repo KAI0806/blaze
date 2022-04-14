@@ -1134,10 +1134,10 @@ form .wrap button::before{
     }
 
     #recruit h2 img{
-        height: 6.165rem;
+        height: unset;
         margin-left: 2rem;
         margin-bottom: .5rem;
-        width: fit-content;
+        width: 22.18rem;
     }
 
     #recruit .content{

@@ -942,6 +942,7 @@ form .wrap button::before{
     /* philosophy */
     #philosophy{
         margin-bottom: 6rem;
+        overflow-x: hidden;
     }
 
     #philosophy .title{

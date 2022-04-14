@@ -315,6 +315,7 @@ footer .map{
 
     #hamburger span img{
         opacity: 0;
+        width: 100%;
     }
 
     #hamburger .ladder_white{

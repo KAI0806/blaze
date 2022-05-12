@@ -1151,9 +1151,9 @@ form .wrap button::before{
         content: "";
         width: 2.3rem;
         height: 15.1rem;
-        top: -30%;
+        top: -20%;
         left: 50%;
-        transform: rotateZ(90deg) translate(-50%, 10%);
+        transform: rotateZ(90deg) translate(-50%, 0);
         background: url("../img/scale.svg") no-repeat center center/contain;
     }
 

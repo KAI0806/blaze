@@ -61,7 +61,7 @@ p{
 }
 
 .mintyo{
-    font-family: '源ノ明朝',"游明朝", YuMincho, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-family: source-han-serif-japanese, serif,"游明朝", YuMincho, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 /* header */
